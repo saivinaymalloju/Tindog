@@ -1,0 +1,157 @@
+body{
+    font-family: "montserrat-black";
+    
+}
+ #title{
+     background-color: #ff4c68;
+ }
+.container1{
+        background-color: #ff4c68;
+ }
+
+.hello{
+    font-family:"montserrat-black";
+    color: azure;
+   
+    line-height: 1.5;
+    font-size: 5rem;
+  
+   
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    
+    font-weight:bolder;
+    font-size: 2rem;
+   
+
+}
+.download{
+  
+    margin:  20% 3.5%;
+    margin-left: 0;
+    
+  
+}
+h1{
+    width: 80%;
+}
+.width{
+    width: 60%;
+}
+.phone{
+    /* width: 70%;
+    height: 90%; */
+    margin-top: 10%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 50%;
+    
+   
+}
+
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    font-family: "montserrat";
+   background-color:  #fff;
+   position: relative;
+   z-index: 1;
+  
+    
+   
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+   margin-bottom: 1rem;
+    color: #ef8172;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+/* testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    line-height: 1rem;
+    
+}
+.carousel-item{
+    padding: 3% 15%;
+}
+.testimonial-text{
+    font-size: 3.6rem;
+    font-weight: bold;
+}
+.testimage{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.pressicon{
+ 
+    width:15% ;margin: 20px 20px 50px;
+
+   
+
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+   padding-bottom:3%;
+}
+#pricing{
+    padding: 100px;
+}
+.pricingsection{
+    margin:5px 0px;
+}
+
+#cta{
+    background-color:#ef8172;
+  
+    padding: 3% 20%;
+    text-align: center;
+}
+.cta1{
+    font-size: 3.5rem;
+    font-family:"montserrat-black" ;
+
+}
+.download1{
+    margin: 9% 5%;
+}
+#footer{
+    text-align: center;
+    padding: 10% 15%;
+}
+
+@media (max-width: 1076px) {
+    .phone{
+        position: static;
+        transform: rotate(0);
+        margin-left: 50%;
+       
+
+    }
+    .width{
+        margin-left: 30%;
+    }
+      
+    }
+    .width{
+        text-align: center;
+    }
+
+}
